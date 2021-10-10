@@ -1,0 +1,67 @@
+.head {
+  background-color: #0746a7;
+  color: white;
+}
+
+.head-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.left {
+  display: flex;
+  width: 58%;
+  justify-content: space-between;
+}
+
+.left h1 {
+  font-size: 19px;
+  align-self: center;
+}
+.for-search {
+  width: 72%;
+  position: relative;
+}
+.search {
+  padding: 10px 16px;
+  width: 100%;
+  background-color: rgb(255 255 255 / 20%);
+  border: none;
+  outline: none;
+  color: white;
+}
+.search::placeholder {
+  color: #c8ecff;
+}
+
+.fas {
+  position: absolute;
+  right: 24px;
+  top: 10px;
+  color: #c8ecff;
+}
+
+.request {
+  padding: 12px 20px;
+  background-color: transparent;
+  border: 1px solid #cfcfcf;
+  color: white;
+  border-radius: 7px;
+  margin-right: 22px;
+}
+
+.shipment {
+  padding: 13px 31px;
+  background-color: #5cc781;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.book {
+  background-color: greenyellow;
+  color: white;
+}
