@@ -63,6 +63,13 @@
   margin-right: 22px;
 }
 
+.request:hover {
+  background-color: white;
+  color: black;
+  transition: ease-in-out 0.4s;
+  cursor: pointer;
+}
+
 .shipment {
   padding: 13px 31px;
   background-color: #5cc781;
@@ -71,9 +78,16 @@
   border-radius: 5px;
 }
 
+.shipment:hover {
+  background-color: #3b8053;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+}
+
 .book {
   background-color: greenyellow;
   color: white;
+
 }
 
 /* @media only screen and (max-width: 992px) {
