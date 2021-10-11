@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Nanum+Gothic&display=swap");
+
 .head {
-  background-color: #0746a7;
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -18,9 +20,17 @@
 }
 
 .left h1 {
-  font-size: 19px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
   align-self: center;
 }
+
+.left span {
+  font-family: "Gluten", cursive;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
 .for-search {
   width: 72%;
   position: relative;
@@ -65,3 +75,9 @@
   background-color: greenyellow;
   color: white;
 }
+
+/* @media only screen and (max-width: 992px) {
+  .container {
+    padding: 1.5rem 3rem;
+  }
+} */

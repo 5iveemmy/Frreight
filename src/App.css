@@ -1,7 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*:root {
+  --primary-color: #0746a7;
+  --secondary-color: #f1f2f6;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 1.5rem 7rem !important;
+  }
+  .short {
+    left: 40px !important;
+  }
+
+  input:checked + .slider-square:before {
+    -webkit-transform: translateX(6rem) !important;
+    -ms-transform: translateX(6rem) !important;
+    transform: translateX(6rem) !important;
+  }
+
+  .slider-square:after {
+    padding-left: 9rem !important;
+  }
+  .or {
+    bottom: 40.5px !important;
+  }
+  /* .service-wrap {
+    flex-wrap: wrap;
+  } */
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 1.5rem 3rem !important;
+  }
+  .short {
+    left: 10px !important;
+  }
+  .mode {
+    padding: 20px 10px !important;
+  }
+  .service-wrap {
+    flex-wrap: wrap;
+  }
+
+  .slider-square:after {
+    padding-left: 9.3rem !important;
+  }
+
+  input:checked + .slider-square:before {
+    -webkit-transform: translateX(8rem) !important;
+    -ms-transform: translateX(8rem) !important;
+    transform: translateX(8rem) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head-wrap {
+    flex-wrap: wrap !important;
+  }
+  .left {
+    width: 100% !important;
+    padding-bottom: 16px !important;
+  }
+
+  .service-wrap {
+    flex-wrap: wrap !important;
+  }
+
+  .mode {
+    flex: 45% !important;
+    padding: 30px !important;
+  }
+
+  .ports {
+    padding-bottom: 20px !important;
+  }
+
+  .or {
+    bottom: 35.5px !important;
+  }
+
+  .details-head {
+    flex-direction: column !important;
+    line-height: 24px !important;
+  }
+
+  .square-switch {
+    width: 100% !important;
+  }
+
+  .slider-square:after {
+    padding-left: 24rem !important;
+  }
+
+  input:checked + .slider-square:before {
+    -webkit-transform: translateX(10rem) !important;
+    -ms-transform: translateX(10rem) !important;
+    transform: translateX(10rem) !important;
+  }
+
+  .for-fieldset {
+    width: 100% !important;
+  }
+
+  fieldset {
+    width: 23vw !important;
+  }
+
+  .forwarding {
+    flex: 100% !important;
+  }
 }

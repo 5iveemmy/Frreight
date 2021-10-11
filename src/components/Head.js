@@ -7,7 +7,9 @@ function Head() {
       <div className="head">
         <div className="head-wrap">
           <div className="left">
-            <h1>send FREIGHT</h1>
+            <h1>
+              <span>send</span> FREIGHT
+            </h1>
             <div className="for-search">
               {" "}
               <input type="text" className="search" placeholder="Search" />{" "}
