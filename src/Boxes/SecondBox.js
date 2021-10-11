@@ -21,14 +21,14 @@ function SecondBox() {
             <input
               type="text"
               className="for-location"
-              placeholder="          City or port"
+              placeholder=" City or port"
             />
           </div>
           <div className="to">
             <div className="location or">
               <MdLocationPin className="md" /> <p>To</p>
             </div>
-            <input type="text" placeholder="      City or port" />
+            <input type="text" className="to-location" placeholder=" City or port" />
           </div>
           <div className="ready">
             <input type="date" placeholder="Ready Date" />
